@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--
+		Links CSS style sheet
+	-->
+	<link rel="stylesheet" href="styles/activity2.css">
+	<!--
+		Defines the page title
+	-->
+	<title>Justin Leiner, ITIS-3135, HTML Tables</title>
+</head>
+
+<body> 
+	<!--	
+		Defines header text
+	-->
+	<header>
+		<h1> Justin Leiner / ITIS-3135 </h1>
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a> 
+        |||
+		<a href="contact.html">Contact</a>
+	</nav>
+
+<!--
+	Defines main text
+-->
+	<main>
+		<h2>
+			HTML Tables
+		</h2>
+
+<!--
+	Creates an ordered lisat containing basic employee information
+-->
+
+		<h3>
+			My Tabular Data
+			<ol>
+
+				<li>Justin Leiner, jleiner1@uncc.edu, 16</li>
+				<li>Bugs Bunny, Bbunny@LeinerDesignCo.com, 3</li>
+				<li>Princess Peach, Ppeach@LeinerDesignCo.com, 8</li>
+				<li>Itachi Uchiha, Iuchiha@LeinerDesignCo.com, 5</li>
+				<li>Eren Yeager, Eyeager@LeinerDesignCo.com, 4</li>
+				<li>Asuna Yuuki, Ayuuki@LeinerDesignCo.com, 11</li>
+				<li>Spongebob Squarepants, Ssquarepants@LeinerDesignCo.com, 15</li>
+				<li>Sheldon Plankton, Splankton@LeinerDesignCo.com, 13</li>
+
+			</ol>
+		</h3>
+
+
+<!--
+	Creates a simple table with 3 columns and organizes the data based on Employee name, Employee email, and Time at the company
+-->
+		<h3>
+			Employee Data in Simple Table
+		</h3>
+
+		<table>
+		<thead>
+			<!--
+				Defines headers for each column
+			-->
+			<tr>
+				<th>Name</th>
+				<th>E-mail</th>
+				<th class="right">Years of Service</th>
+			</tr>
+		</thead>
+		
+<!--
+	Populates table with one row of information at a time
+-->
+		<tbody>
+			<tr>
+				<td>Justin Leiner</td>
+				<td>jleiner1@uncc.edu</td>
+				<td class="right">16</td>
+			</tr>
+			<tr>
+				<td>Bugs Bunny</td>
+				<td>Bbunny@LeinerDesignCo.com</td>
+				<td class="right">3</td>
+			</tr>
+			<tr>
+				<td>Princess Peach</td>
+				<td>Ppeach@LeinerDesignCo.com</td>
+				<td class="right">8</td>
+			</tr>
+			<tr>
+				<td>Itachi Uchiha</td>
+				<td>Iuchiha@LeinerDesignCo.com</td>
+				<td class="right">5</td>
+			</tr>
+			<tr>
+				<td>Eren Yeager</td>
+				<td>Eyeager@LeinerDesignCo.com</td>
+				<td class="right">4</td>
+			</tr>
+			<tr>
+				<td>Asuna Yuuki</td>
+				<td>Ayuuki@LeinerDesignCo.com</td>
+				<td class="right">11</td>
+			</tr>
+			<tr>
+				<td>Spongebob Squarepants</td>
+				<td>Ssquarepants@LeinerDesignCo.com</td>
+				<td class="right">15</td>
+			</tr>
+			<tr>
+				<td>Sheldon Plankton</td>
+				<td>Splankton@LeinerDesignCo.com</td>
+				<td class="right">13</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+<!--
+	Creates a complex table with 5 columns and organizes the data based on Employee Postion, Employee name, Employee email, Time at the company, and Salary
+-->
+
+	<h3>
+			Employee Data in Complex Table
+		</h3>
+
+<figure>
+
+		<table>
+<!--
+	Defines headers for each column
+-->
+		<thead>
+			<tr>
+				<th>Position
+				<th>Name</th>
+				<th>E-mail</th>
+				<th class="right">Years of Service</th>
+				<th>Salary</th>
+			</tr>
+		</thead>
+
+<!--
+	Populates table with one row of information at a time
+-->
+		<tbody>
+			<tr>
+				<td rowspan ="2"> Creative Director</td>
+				<td>Justin Leiner</td>
+				<td>jleiner1@uncc.edu</td>
+				<td class="right">16</td>
+				<td>$300,000</td>
+			</tr>
+			<tr>
+				<td>Bugs Bunny</td>
+				<td>Bbunny@LeinerDesignCo.com</td>
+				<td class="right">3</td>
+				<td>$250,000</td>
+			</tr>
+			<tr>
+				<td>Sales</td>
+				<td>Princess Peach</td>
+				<td>Ppeach@LeinerDesignCo.com</td>
+				<td class="right">8</td>
+				<td>$180,000</td>
+			</tr>
+			<tr>
+				<td rowspan ="2"> Lead Designer</td>
+				<td>Itachi Uchiha</td>
+				<td>Iuchiha@LeinerDesignCo.com</td>
+				<td class="right">5</td>
+				<td>$225,000</td>
+			</tr>
+			<tr>
+				<td>Eren Yeager</td>
+				<td>Eyeager@LeinerDesignCo.com</td>
+				<td class="right">4</td>
+				<td>$225,000</td>
+			</tr>
+			<tr>
+				<td>Sales</td>
+				<td>Asuna Yuuki</td>
+				<td>Ayuuki@LeinerDesignCo.com</td>
+				<td class="right">11</td>
+				<td>$180,000</td>
+			</tr>
+			<tr>
+				<td>Lead Designer</td>
+				<td>Spongebob Squarepants</td>
+				<td>Ssquarepants@LeinerDesignCo.com</td>
+				<td class="right">15</td>
+				<td>$225,000</td>
+			</tr>
+			<tr>
+				<td>Sales</td>
+				<td>Sheldon Plankton</td>
+				<td>Splankton@LeinerDesignCo.com</td>
+				<td class="right">13</td>
+				<td>$180,000</td>
+			</tr>
+			<tr>
+				<th colspan="3"> Total Years of Service</th>
+				<td class="right"> 75 Years</td>
+				<td> $1,765,000 </td>
+			</tr>
+		</tbody>
+	</table>
+
+<!--
+	Provides a caption that briefly describes the table.
+	Below it is a summary that is provided for users who use screen readers or need universal accessibility
+-->
+	<figcaption>
+
+		<strong>Caption:</strong> HR General Employee Records <br>
+		<span><strong>Summary:</strong> Column one details the position of every employee. Colum two, three, and four in that order detail the employees name, email address, and years working at the company. Column 5 details each employees salary. At the bottom of the table, the total years of service  and sum of all employee salaries are displayed.</span>
+  			
+	</figcaption>
+
+</figure>
+
+</main>
+
+		<footer>
+<br>
+
+<!--
+	Defines a navigation section. Creates navigation functionality to other linked sites.
+-->
+        <nav>
+            <a href="http://webpages.uncc.edu/jleiner1/" target="_blank">Charlotte.edu</a> &#9553;
+            <a href="https://github.com/justinleiner" target="_blank">Github</a> &#9553;
+            <a href="https://justinleiner.github.io/" target="_blank">Github.io</a> &#9553;
+            <a href="https://justinleiner.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+            <a href="https://www.freecodecamp.org/justin_leiner/" target="_blank">FreeCodeCamp</a> &#9553;
+            <a href="https://www.instagram.com/justin.l2023/" target="_blank">Instagram</a> &#9553;
+            <a href="https://jlsimbah.wixsite.com/justinleiner" target="_blank">Photo/video Website</a> &#9553;
+            <a href="https://www.linkedin.com/in/justinleiner/" target="_blank">LinkedIn</a> &#9553;
+            <a href="http://webpages.uncc.edu/jleiner1/itis3135/html_tables.html"> HTML Tables</a> &#9553;  
+        </nav>
+
+        <p>
+	   Page built by Leiner designs
+	</p>
+
+<!--
+	Verifies there are no errors in the HTML/CSS code
+-->
+
+        <a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+		</footer>
+
+</body>
+</html>

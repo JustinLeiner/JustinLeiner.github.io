@@ -5,8 +5,8 @@
 body
 {
 	font-family: verdana;
-	color: #FF9633;
-	background-color: #33A2FF;
+	color: #FFF633;
+	background-color: #fc2323;
 	margin-left: 70px;
 	margin-right: 70px;
 }
@@ -15,7 +15,7 @@ body
 header, footer
 {
 	text-align: left;
-	color: #FF9633;
+	color: #FFF633;
 	font-weight: bold;
 }
 
@@ -35,7 +35,7 @@ h3
 a
 {
 	text-decoration: none;
-	color: #FF9633;
+	color: #FFF633;
 	
 }
 
