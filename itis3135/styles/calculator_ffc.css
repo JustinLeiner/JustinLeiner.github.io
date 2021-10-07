@@ -1,0 +1,121 @@
+body
+{
+  font-family: verdana;
+  color: #FBEEC1;
+  background-color: #659DBD;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+header, footer
+{
+  text-align: left;
+  color: #FBEEC1;
+  font-weight: bold;
+}
+
+h1, h2, h3
+{
+  color: #FBEEC1;
+  font-family: Cambria, Cochin, serif;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 225%;
+  line-height: 10x;
+}
+
+a
+{
+  text-decoration: none;
+  color: #FBEEC1;
+  
+}
+
+a:hover
+{
+  text-decoration: overline underline;
+}
+
+figure
+{
+  text-align: center;
+}
+
+figcaption
+{
+  font-style: italic;
+}
+
+
+nav
+{
+  text-align: center;
+  color:  #ffffff;
+}
+
+.container {
+  max-width: 20em;
+}
+
+.container > p {
+  text-align: center;
+}
+
+.calculator {
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0px white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: 15em;
+  overflow: hidden;
+}
+
+.calculator__display {
+  background-color: #orangered;
+  color: #orangered;
+  font-size: 1.714285714em;
+  padding: 0.5em 0.75em;
+  text-align: right;
+}
+
+.calculator__keys {
+  background-image: linear-gradient(to bottom, #ff8c00, #ffa500);
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator__keys > * {
+  background-color: #orange;
+  padding: 0.5em 1.25em;
+  position: relative;
+  text-align: center;
+}
+
+.calculator__keys > *:active::before,
+.calculator__keys > .is-depressed::before {
+  background-color: orange;
+  bottom: 0;
+  box-shadow: 0 0 6px 0 orange inset;
+  content: "";
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.key--operator {
+  background-color: #black;
+}
+
+.key--equal {
+  background-image: linear-gradient(to bottom, #add8e6, #3a9fbf);
+  grid-column: -2;
+  grid-row: 2 / span 4;
+}

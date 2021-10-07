@@ -3,20 +3,34 @@
 /*styling for the table goes here*/
 body
 {
+	font-family: verdana;
+  color: #CBC3E3;
+  background-color: #659DBD;
 	width: 750px;
 	margin: 0 auto;
+}
+
+header, footer
+{
+  text-align: left;
+  color: #FBEEC1;
+  font-weight: bold;
+}
+
+ol{
+	text-align: left;
 }
 
 table
 {
 	border-collapse: collapse;
-	
+	background-color: red;
 	margin: 20px;
 }
 
 thead
 {
-	background-color: Yellow;
+	background-color: darkblue;
 }
 
 th, td
@@ -34,7 +48,7 @@ th, td
 
 tbody tr:nth-child(1) td
 {
-	background-color: yellow;
+	background-color: darkblue;
 }
 
 tbody tr:nth-child(odd) td

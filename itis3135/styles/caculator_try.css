@@ -1,0 +1,59 @@
+body
+{
+  font-family: verdana;
+  color: #FBEEC1;
+  background-color: #659DBD;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+header, footer
+{
+  text-align: left;
+  color: #FBEEC1;
+  font-weight: bold;
+}
+
+h1, h2, h3
+{
+  color: #FBEEC1;
+  font-family: Cambria, Cochin, serif;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 225%;
+  line-height: 10x;
+}
+
+a
+{
+  text-decoration: none;
+  color: #FBEEC1;
+  
+}
+
+a:hover
+{
+  text-decoration: overline underline;
+}
+
+figure
+{
+  text-align: center;
+}
+
+figcaption
+{
+  font-style: italic;
+}
+
+
+nav
+{
+  text-align: center;
+  color:  #ffffff;
+}
+
+

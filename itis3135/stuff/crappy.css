@@ -1,0 +1,30 @@
+body{
+	width: 750px;
+	margin: 42px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #03fcf0;
+	background-color: #FFF000;
+}
+
+main{
+	width:  77px;
+	font-family: "Times New Roman", Times, serif;
+	color: #03fcf0;
+	background-color: #FFF000;
+}
+
+ul{
+	text-align: center;
+	margin: 500px;
+	color: #000;
+	background-color: #FFF;
+}
+
+p{
+	text-align: center;
+	margin-right: 350px;
+	margin-bottom: 800px;
+	color: #03fcf0;
+	background-color: #FFF000;
+}
+
