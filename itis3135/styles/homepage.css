@@ -4,24 +4,23 @@
 
 body
 {
+	text-align: center;
 	font-family: monospace;
-	color: #80bfff;
-	background-color: #0059b3;
-	margin-left: 70px;
-	margin-right: 70px;
+	color: #bf0000;
+	background-color: #ff0000;
 }
 
 
 header, footer
 {
 	text-align: center;
-	color: #80bfff;
+	color: #ff0000;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #80bfff;
+	color: #ff0000;
 	font-family: Cambria, Cochin, serif;
 	text-align: center;
 }
@@ -35,7 +34,7 @@ h3
 a
 {
 	text-decoration: none;
-	color: #80bfff;
+	color: #ff0000;
 	
 }
 

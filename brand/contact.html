@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title> Jazzy Lion Contact Form</title>
+<!--
+	https://coolors.co/e0acd5-3993dd-f4ebe8-29e7cd-6a3e37 color scheme
+-->
+	<!--
+		Links CSS style sheet
+	-->
+	<link rel="stylesheet" href="styles/default_styles.css">
+
+<!--
+		Removes bullets in navigation
+
+<style>
+ul {
+  list-style-type: none;
+  display:  inline;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+-->
+
+</head>
+
+<body>
+
+<div data-include="components/header.html"></div>
+
+		<h1>Jazzy Lion Enterprises</h1>
+
+		<figure>
+			<a href="images/lion.png">
+			    <img src="images/lion.png" alt="Cartoon Lion" width ="150" height="150">
+			</a>
+		</figure>
+
+<main>
+<!--
+		Page navigation
+
+	<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+	-->
+
+<h2>Contact Form:</h2>
+
+<!--
+	Textbox section of the form
+-->
+<form>
+
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="phoneNum">Phone Number:</label><br>
+  <input type="text" id="phoneNum" name="phoneNum" maxlength="10" size="10" placeholder="7045009000"><br>
+<br>
+
+</form>
+
+<!--
+		Dropdown list section of the form
+-->
+  <h4> Requested Service: </h4>
+ <!-- <label for="serviceType">Requested Service:</label> -->
+  <select name="serviceType" id="serviceType">
+    <option value="graphicDesign">Graphic Design</option>
+    <option value="interiorDesign">Interior Design</option>
+    <option value="photography">Photography</option>
+    <option value="Marketing/Branding">Marketing / Branding</option>
+  </select>
+
+  <!--
+		Submit button
+  -->
+  <input type="submit" value="Submit" onclick="submit()">
+
+	</main>
+
+<div>
+<br>
+<p>
+	&#169; Designed by Jazzy Lion Enterprises
+</p>
+
+<a href="https://validator.w3.org/check?uri=referer" target="_blank">
+<button id="html">HTML  Validator</button>
+</a>
+
+<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+<button id="css">CSS  Validator</button>
+</a>
+
+<!--
+	<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+	<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+-->
+
+</div>
+
+<script src="scripts/include.js"></script>
+
+</body>
+</html>

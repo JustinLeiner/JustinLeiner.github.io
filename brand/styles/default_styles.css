@@ -14,22 +14,35 @@ body
 
 header, footer
 {
-	text-align: center;
+	text-align: left;
 	color: #80bfff;
 	font-weight: bold;
 }
 
-h1, h2, h3
+main{
+	text-align: left;
+}
+
+div{
+	text-align: left;
+}
+
+h1, h3
 {
 	color: #80bfff;
 	font-family: Cambria, Cochin, serif;
 	text-align: center;
 }
 
+h2, h4
+{
+	text-align: left;
+}
+
 h3
 {
-	font-size: 225%;
 	line-height: 10x;
+	text-align: left;
 }
 
 a
@@ -57,6 +70,6 @@ figcaption
 
 nav
 {
-	text-align: center;
+	text-align: left;
 	color:  #ffffff;
 }
