@@ -1,0 +1,65 @@
+
+body
+{
+	font-family: monospace;
+	color: #000000;
+	background-image:  url(/Users/justinleiner/Documents/itis3135_work/private_html/JustinLeiner.github.io/itis3135/project/images/Caleb.jpg);
+	margin-left: auto;
+    margin-right: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	margin-top: 80px;
+    padding: 30px;
+}
+
+.intro {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 135%;
+}
+
+header{
+	text-align: left;
+	background-color: #888888;
+	color: #FFFFFF;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    color: white;
+}
+
+
+header * {
+    display: inline;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav
+{
+	text-align: center;
+	color:  #ffffff;
+}
+
+nav.main-header {
+  list-style-type: none;
+  display:  inline;
+  margin: 0;
+  padding: 0;
+}
+
+

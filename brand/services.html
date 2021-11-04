@@ -4,26 +4,21 @@
 <head>
 	<meta charset="utf-8" />
 
-	<title> Jazzy Lion Services Page</title>
+	<title> Jazzy Lion Contact Form</title>
+
 	<!--
 		Links CSS style sheet
 	-->
 	<link rel="stylesheet" href="styles/default_styles.css">
-	<script src="scripts/w3.js"></script>
-
-<style>
-ul {
-  list-style-type: none;
-  display:  inline;
-  margin: 0;
-  padding: 0;
-}
-</style>
-
 </head>
 
 <body>
-	<div>
+
+<!--
+	Loads Header dynamically
+-->
+<div data-include="components/header.html"></div>
+
 		<h1>Jazzy Lion Enterprises</h1>
 
 		<figure>
@@ -31,51 +26,34 @@ ul {
 			    <img src="images/lion.png" alt="Cartoon Lion" width ="150" height="150">
 			</a>
 		</figure>
-	</div>
 
 <main>
-<!--
-	Page navigation
--->
-	<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
 
 <h2>Services we offer</h2>
 
 
 	<p><strong>Graphic Design:</strong></p>
-	<p>  Any basic form of Logo, Advertisement, or Business card design </p><br>
+	<p>  Any basic form of Logo, Advertisement, or Business card design.</p><br>
 	<p><strong>Interior Design:</strong></p>
-	<p>  Design, Create, and Build functional interior spaces that incorporate a consistent theme</p><br>
+	<p>  Design, Create, and Build functional interior spaces that incorporate a consistent theme.</p><br>
 	<p><strong>Photography: </strong></p>
 	<p> Professional photography that can be used for both personal and commerical purposes.</p><br>
 	<p><strong>Marketing / Branding: </strong></p>
-	<p> We handle all the management and back end of whatever design services your brand needs</p><br>
+	<p> We handle all the management and back end of whatever design services your brand needs. </p><br>
 
 	</main>
 
-<div>
-<br>
-<p>
-	&#169; Designed by Jazzy Lion Enterprises
-</p>
-
-<a href="https://validator.w3.org/check?uri=referer" target="_blank">
-<button id="html">HTML  Validator</button>
-</a>
-
-<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-<button id="css">CSS  Validator</button>
-</a>
-
 <!--
-	<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
-	<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	Dynamically loads footer
 -->
 
-</div>
+<div data-include="components/footer.html"></div>
+
+<!--
+		loads javascript
+	-->
+
+<script src="scripts/include.js"></script>
+
 </body>
 </html>

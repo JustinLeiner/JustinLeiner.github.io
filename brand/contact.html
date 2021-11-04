@@ -5,32 +5,18 @@
 	<meta charset="utf-8" />
 
 	<title> Jazzy Lion Contact Form</title>
-<!--
-	https://coolors.co/e0acd5-3993dd-f4ebe8-29e7cd-6a3e37 color scheme
--->
+
 	<!--
 		Links CSS style sheet
 	-->
 	<link rel="stylesheet" href="styles/default_styles.css">
-
-<!--
-		Removes bullets in navigation
-
-<style>
-ul {
-  list-style-type: none;
-  display:  inline;
-  margin: 0;
-  padding: 0;
-}
-</style>
-
--->
-
 </head>
 
 <body>
 
+<!--
+	Loads Header dynamically
+-->
 <div data-include="components/header.html"></div>
 
 		<h1>Jazzy Lion Enterprises</h1>
@@ -42,16 +28,6 @@ ul {
 		</figure>
 
 <main>
-<!--
-		Page navigation
-
-	<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-
-	-->
 
 <h2>Contact Form:</h2>
 
@@ -86,29 +62,20 @@ ul {
 		Submit button
   -->
   <input type="submit" value="Submit" onclick="submit()">
+  <br>
+  <br>
 
 	</main>
 
-<div>
-<br>
-<p>
-	&#169; Designed by Jazzy Lion Enterprises
-</p>
-
-<a href="https://validator.w3.org/check?uri=referer" target="_blank">
-<button id="html">HTML  Validator</button>
-</a>
-
-<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-<button id="css">CSS  Validator</button>
-</a>
-
 <!--
-	<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
-	<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	Dynamically loads footer
 -->
 
-</div>
+<div data-include="components/footer.html"></div>
+
+<!--
+		loads javascript
+	-->
 
 <script src="scripts/include.js"></script>
 

@@ -14,7 +14,7 @@ body
 
 header, footer
 {
-	text-align: left;
+	text-align: center;
 	color: #80bfff;
 	font-weight: bold;
 }
@@ -70,6 +70,5 @@ figcaption
 
 nav
 {
-	text-align: left;
 	color:  #ffffff;
 }
