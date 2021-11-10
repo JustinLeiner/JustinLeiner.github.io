@@ -33,12 +33,10 @@ header a {
 
 div
 {
-color:  black;
 text-align: center;
 font-family: monospace;
 border:  0;
 border-color: black;
-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 .column-img {
@@ -58,19 +56,38 @@ box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   clear: both;
 }
 
+.column-footer{
+  float: left;
+  width: 33.33%;
+}
+
 h2
 {
   color:  #000000;
   text-align: center;
 }
 
+h6
+{
+  text-align: center;
+  font-size: 125%;
+}
 
 footer
 {
     width: 100%;
-    background-color: red;
+    color:  #ffffff;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+}
 
 nav
 {

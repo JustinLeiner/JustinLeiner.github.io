@@ -40,14 +40,10 @@ header a {
 
 p
 {
-  color:  black;
-  position: absolute;
-  top: 35%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  font-size: 135%;
+  color:  white;
   border-color: #000000;
   border-width: 2px;
+  font-family: monospace;
 }
 
 
@@ -55,8 +51,6 @@ p
 footer
 {
 	text-align: center;
-	background-color: #000000;
-	color: #FFFFFF;
 	font-weight: bold;
 }
 
@@ -75,21 +69,11 @@ h4
 {
   color:  #000000;
   font-size: 135%;
-  position: absolute;
-  top: 17%;
-  left: 39%;
-  transform: translate(-50%, -50%);
-  font-size: 135%;
 }
 
 h5
 {
   color:  #000000;
-  font-size: 135%;
-  position: absolute;
-  top: 11%;
-  left: 80%;
-  transform: translate(-50%, -50%);
   font-size: 135%;
 }
 
@@ -129,13 +113,19 @@ input[type=submit]
 
 iframe
 {
-  position: absolute;
-  top: 40%;
-  left: 80%;
-  transform: translate(-50%, -50%);
   font-size: 135%;
   border-color: #000000;
   border-width: 2px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
 }
 
 nav

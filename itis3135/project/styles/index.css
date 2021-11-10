@@ -3,7 +3,6 @@ body
 {
 	font-family: monospace;
 	color: #000000;
-	background-image:  url(images/Caleb.jpg);
 	margin-left: auto;
     margin-right: auto;
     background-size: 100%;
@@ -61,5 +60,33 @@ nav.main-header {
   margin: 0;
   padding: 0;
 }
+
+h6
+{
+  text-align: center;
+  font-size: 125%;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+}
+
 
 

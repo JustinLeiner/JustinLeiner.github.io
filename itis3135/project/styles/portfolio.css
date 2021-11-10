@@ -52,10 +52,26 @@ header a {
   clear: both;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+}
+
 h2
 {
   color:  #000000;
   text-align: center;
+}
+
+h6
+{
+  text-align: center;
+  font-size: 125%;
 }
 
 nav
