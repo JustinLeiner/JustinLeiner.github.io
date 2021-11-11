@@ -1,0 +1,61 @@
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+body
+{
+	text-align: center;
+	font-family: monospace;
+	color: #ff0000;
+	background-color: #800000;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: #ff0000;
+	font-family: Cambria, Cochin, serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 225%;
+	line-height: 10x;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ff0000;
+	
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+	color:  #ffffff;
+}
