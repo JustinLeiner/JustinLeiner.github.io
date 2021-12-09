@@ -1,0 +1,162 @@
+body
+{
+    font-family: monospace;
+    color: #000000;
+    margin-top: 80px;
+    padding: 0px;
+}
+
+header{
+    text-align: left;
+    background-color: #888888;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+header * {
+    display: inline;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1
+{
+  text-align: center;
+}
+
+h2
+{
+  color:  #000000;
+  text-align: center;
+}
+
+h6
+{
+  text-align: center;
+  font-size: 125%;
+}
+
+footer
+{
+    width: 100%;
+    color:  #ffffff;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+nav
+{
+    text-align: center;
+    color:  #ffffff;
+}
+
+nav.main-header {
+  list-style-type: none;
+  display:  inline;
+  margin: 0;
+  padding: 0;
+}
+
+.download {
+ position: absolute;
+ bottom: 20%;
+ left: 47%;
+}
+
+/* I refrenced this link in order to complete the css for the slider 
+
+https://www.gitto.tech/posts/before-after-image-slider-using-html-css-and-javascript/ 
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.compare {
+  position: relative;
+  width: 750px;
+  height: 500px;
+  border: 1px;
+  border-color: black;
+}
+
+.compare .before {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: url("images/before.jpg");
+  background-size: 750px 500px;
+}
+
+.compare .before .after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 500px;
+  background: url("images/after.jpg");
+  z-index: 2;
+  background-size: 750px 500px;
+}
+
+.compare input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-appearance: none;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.compare input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  display: block;
+  width: 10px;
+  height: 500px;
+  border: 1px;
+  border-color: black;
+  background: red;
+  cursor: pointer;
+}
+
