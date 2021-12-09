@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About Caleb</title>
+    <link href="styles/about.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/testimonials.js"></script>
+
+</head>
+
+<body>
+  
+<!--
+    Creates Header
+-->
+<div data-include="components/header.html"></div>
+
+    <main>
+        <figure>
+            <a href="images/about_caleb.jpg">
+                <img src="images/about_caleb.jpg" alt="Caleb" width ="460" height="575" align="left">
+            </a>
+        </figure>
+
+        <br><br>
+
+        <h1>My Story</h1>
+
+        <p class="p-main"> As a photographer, I view the world through a creative lens. This creativity has led me on many adventures, and has given me the chance to collaborate with some truly talented individuals. I’m always searching for more opportunities to explore further, continue growing, and expand my skill set. If you’d like to learn more, get in touch.</p> <br><br>
+
+        <h2>Testimonials</h2>
+
+        <!--
+            Loads testimonials using Ajax
+        -->
+		<div id="testimonials"></div>
+    </main>
+
+    <!--
+        Creates Footer
+    -->
+
+<div data-include="components/footer.html"></div>
+
+<script src="scripts/htmlinclude.js"></script>
+
+</body>
+</html>

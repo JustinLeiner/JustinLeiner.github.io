@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title> Products </title>
+
+	<!--
+		Links CSS style sheet
+	-->
+	<link rel="stylesheet" href="styles/product_slider.css">
+</head>
+
+<body>
+
+<!--
+	Creates Header
+-->
+<div data-include="components/header.html"></div>
+
+	<main>
+ 
+  <div class="container">
+
+    <h1>Before and After Image Slider</h1>
+
+ <!--
+ 		Creates Image slider
+ 	-->
+  <div class="compare">
+    <div class="before">
+      <div class="after"></div>
+    </div>
+    <input type="range" min="0" max="750" step="10" id="compare-ip">
+  </div>
+</div>
+
+<!--
+	Creates Download link
+-->
+<div class="download">
+  <a href="components/caleb_preset_pack.zip" download> Download Presets </a>
+</div>	 
+
+	</main>
+
+<!--
+		Creates Footer
+	-->
+
+<div data-include="components/footer.html"></div>
+
+<!--
+		loads javascript
+	-->
+<script src="scripts/htmlinclude.js"></script>
+<script src="scripts/product_slider.js"></script>
+
+</body>
+</html>

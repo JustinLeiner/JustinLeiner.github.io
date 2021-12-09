@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Calebs Portfolio</title>
+
+    <!--
+        Links CSS
+    -->
+    <link href="styles/portfolio.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+
+    <!--
+        Links Javascript
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="scripts/portfolio_slideshow.js"></script>
+
+</head>
+<body>
+
+<!--
+    Creates Header
+-->
+<div data-include="components/header.html"></div>
+
+    <main>
+        <h1>
+            Portfolio
+        </h1>
+
+        <!--
+            Creates Portfolio Slideshow
+        -->
+        <ul id="slider">
+            <li>  <img src="images/4x5_street_r.jpg" width = 400 height = 500 alt = "A photo of Rachel, one of Calebs clients, from an Express Shoot"> </li>
+            <li> <img src="images/4x5_street.jpg" width = 400 height = 500 alt = "A street photo of a man at the Vessel in New York City"> </li>
+            <li>  <img src="images/4x5_grad_r.jpg" width = 400 height = 500 alt = "A photo of Raven, one of Calebs clients, from an Graduation Shoot"> </li>
+            <li>  <img src="images/4x5_wtc.jpg" width = 400 height = 500 alt = "A photo of the World Trade Center building in New York City"> </li>
+            <li>  <img src="images/4x5_br.jpg" width = 400 height = 500 alt = "A photo of the Brooklyn Bridge in New York City"> </li>
+            <li>  <img src="images/4x5_oc.jpg" width = 400 height = 500 alt = "An street photo of a man sitting outside the Oculus in New York City"> </li>
+            <li>  <img src="images/4x5_grad_a.jpg" width = 400 height = 500 alt = "A photo of Ayan, one of Calebs clients, from an Graduation Shoot throwing his cap into the air"> </li>
+            <li>  <img src="images/4x5_street_br.jpg" width = 400 height = 500 alt = "A street photo of a man going about his daily life in Williamsburg, New York"> </li> 
+            <li> <img src="images/4x5_grad_e.jpg" width = 400 height = 500 alt = "A photo of Alexa, one of Calebs clients, from a Graduation Shoot throwing glitter into the air"> </li> 
+            <li> <img src="images/4x5_urban_a.jpg" width = 400 height = 500 alt = "A photo of Ayan, one of Calebs clients, from an Express Shoot which shows him posing on stairs"> </li>
+            <li>  <img src="images/4x5_urban_y.jpg" width = 400 height = 500 alt = "A headshot of Yoel, one of Calebs clients, from an Express Shoot"> </li>
+            <li>  <img src="images/4x5_urban_c.jpg" width = 400 height = 500 alt = "A photo of Crystal, one of Calebs clients, from an Express Shoot which shows her posing in front of the Vessel in New York City"> </li> 
+        </ul>
+        <p id="id_pager"></p>
+    </main>
+    <!--
+        Creates Footer
+    -->
+
+<div data-include="components/footer.html"></div>
+
+<script src="scripts/htmlinclude.js"></script>
+
+</body>
+</html>
+
